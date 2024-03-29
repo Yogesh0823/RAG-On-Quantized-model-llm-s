@@ -32,4 +32,4 @@
      $ python3 vector-db.py
      
 ## Run Chainlit Chat Bot.
-    $ chainlit run model.py
+    $ chainlit run rag-model.py
