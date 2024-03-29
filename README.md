@@ -30,4 +30,6 @@
 
 ## Run vector-db.py for creating vectore-db
      $ python3 vector-db.py
-     $ python rag-model.py
+     
+## Run Chainlit Chat Bot.
+    $ chainlit run model.py
