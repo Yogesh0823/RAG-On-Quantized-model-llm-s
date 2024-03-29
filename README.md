@@ -8,7 +8,7 @@
 * ## Retrieval-Augmented Generation.
 1. RAG on Quantized LLM's model using machine learning using FAISS (Facebook AI Similarity Search) vector database.
 2. RAG doing on LLM's for bash script for generate text to bash script or shell command using only giving single document of any information.
-3. Documnent used in this RAG is CP command you can change you own documnet as your requirements.
+3. Documnent used in this RAG is CP command you can change you own documnet as your requirements in data folder add your pdf document.
 ***
 # Installation
 ## clone this repo to your folder.
