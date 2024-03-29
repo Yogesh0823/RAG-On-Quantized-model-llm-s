@@ -33,3 +33,6 @@
      
 ## Run Chainlit Chat Bot.
     $ chainlit run rag-model.py
+    
+## Output
+![result](https://github.com/Yogesh0823/RAG-On-Quantized-model-llm-s/blob/main/result/Screenshot%20from%202024-03-29%2018-28-56.png)
