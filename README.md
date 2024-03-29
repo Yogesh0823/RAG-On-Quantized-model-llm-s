@@ -29,7 +29,7 @@
       $ pip install -r requirement.txt
 
 ## Run vector-db.py for creating vectore-db
-     $ python3 vector-db.py
+     $ python3 vectore-db.py
      
 ## Run Chainlit Chat Bot.
     $ chainlit run rag-model.py
