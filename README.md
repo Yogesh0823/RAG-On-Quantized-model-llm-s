@@ -27,7 +27,8 @@
 * install requirement.txt
   
       $ pip install -r requirement.txt
-
+* give model path in rag-model.py file from llm-model directory.
+  
 ## Run vector-db.py for creating vectore-db
      $ python3 vectore-db.py
      
