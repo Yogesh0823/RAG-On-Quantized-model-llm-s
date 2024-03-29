@@ -1,19 +1,33 @@
-# RAG-On-Quantized-model-llm-s
-# Project Name
-
-## Description
-Briefly describe your project, including its purpose and key features. Mention any technologies or frameworks used.
+# Retrieval-Augmented Generation (RAG) PROJECT.
 
 ## Table of Contents
-1. [Installation](#installation)
-2. [Usage](#usage)
-3. [Contributing](#contributing)
-4. [License](#license)
+1. [General Info](#Retrieval-Augmented-Generation (RAG))
+2. [Installation](#Installation)
 
-## Installation
-Provide step-by-step instructions on how to install and set up your project. Include any dependencies that need to be installed and how to install them.
+***
+* ## Retrieval-Augmented Generation.
+1. RAG on Quantized LLM's model using machine learning using FAISS (Facebook AI Similarity Search) vector database.
+2. RAG doing on LLM's for bash script for generate text to bash script or shell command using only giving single document of any information.
+3. Documnent used in this RAG is CP command you can change you own documnet as your requirements.
+***
+# Installation
+## clone this repo to your folder.
+* open terminal.
+  
+      $ https://github.com/Yogesh0823/RAG-On-Quantized-model-llm-s.git
+      $ cd RAG-On-Quantized-model-llm-s
+  
+## create virtule environment 
+* open terminal in Resume-detection-of-same-persons folder.
+  
+      $ python -m venv env_name 
+* active virtule environment
+  
+      $ source/env_name/bin/activate
+* install requirement.txt
+  
+      $ pip install -r requirement.txt
 
-```bash
-git clone https://github.com/your_username/project_name.git
-cd project_name
-pip install -r requirements.txt
+## Run vector-db.py for creating vectore-db
+     $ python3 vector-db.py
+     $ python rag-model.py
