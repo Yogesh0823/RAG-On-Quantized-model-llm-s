@@ -17,7 +17,10 @@
       $ https://github.com/Yogesh0823/RAG-On-Quantized-model-llm-s.git
       $ cd RAG-On-Quantized-model-llm-s
   
-## create virtule environment 
+## Download Quantized Model GGUF
+* link https://huggingface.co/TheBloke/CapybaraHermes-2.5-Mistral-7B-GGUF/blob/main/capybarahermes-2.5-mistral-7b.Q5_K_M.gguf
+
+## Create Virtule Environment
 * open terminal in Resume-detection-of-same-persons folder.
   
       $ python -m venv env_name 
@@ -33,7 +36,8 @@
      $ python3 vectore-db.py
      
 ## Run Chainlit Chat Bot.
-    $ chainlit run rag-model.py
+* before running rag-model.py change your model path.
+*     $ chainlit run rag-model.py
     
 ## Output
 ![result](https://github.com/Yogesh0823/RAG-On-Quantized-model-llm-s/blob/main/result/Screenshot%20from%202024-03-29%2018-28-56.png)
